@@ -1,0 +1,24 @@
+{
+  "name": "employee_db_auditor",
+  "version": "1.0.0",
+  "description": "A command line interface application that allows supervisors and admins to edit, add, and maintain their employee database with ease.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byron4455/Employee_DB_Auditor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byron4455/Employee_DB_Auditor/issues"
+  },
+  "homepage": "https://github.com/byron4455/Employee_DB_Auditor#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
