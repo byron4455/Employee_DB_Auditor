@@ -1,8 +1,6 @@
 const inquirer = require('inquirer');
 const mysql2 = require('mysql2');
-require("console.table");
-const { dbConnect } = require("./db");
-const db = require("./db");
+const cTable = require('console.table');
 const database = require('./db/dbfunctions')
 
 
